@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView for displaying the user's name at the top -->
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" /> <!-- Optional margin to space it from the rest -->
+
+    <!-- ImageView for BMI image -->
+    <ImageView
+        android:id="@+id/bmi_1"
+        android:layout_width="308dp"
+        android:layout_height="133dp"
+        android:contentDescription="BMI image"
+        android:src="@drawable/bmi_2" />
+
+    <!-- EditText for weight input -->
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter weight (kg)"
+        android:inputType="numberDecimal" />
+
+    <!-- EditText for height input -->
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter height (m) as 1.65"
+        android:inputType="numberDecimal" />
+
+    <!-- Button for BMI calculation -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:text="Calculate BMI" />
+
+    <!-- Reset Button -->
+
+    <!-- TextView for displaying the result -->
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:text="Reset" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <!-- Spinner for selecting BMI categories -->
+    <Spinner
+        android:id="@+id/bmiCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Additional TextView (optional) -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:text="TextView" />
+</LinearLayout>

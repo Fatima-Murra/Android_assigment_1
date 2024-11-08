@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Instructions TextView -->
+    <TextView
+        android:id="@+id/instructionsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#E0F2F1"
+        android:text="Instructions: \n\nBelow 18.5: Underweight\n18.5 to 24.9: Normal weight\n25 to 29.9: Overweight\n30 and above: Obese"
+        android:textColor="#00574B"
+        android:textSize="16sp" /> <!-- Light teal background for instructions -->
+
+    <!-- TextView to display selected category -->
+    <TextView
+        android:id="@+id/selectedCategoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Category will appear here"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- Spinner for BMI Category Selection -->
+    <Spinner
+        android:id="@+id/bmiCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

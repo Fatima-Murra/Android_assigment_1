@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bmi_categories">
+            <item>Severe Thinness</item>
+            <item>Moderate Thinness</item>
+            <item>Mild Thinness</item>
+            <item>Normal Weight</item>
+            <item>Overweight</item>
+            <item>Obesity Class 1</item>
+            <item>Obesity Class 2</item>
+            <item>Obesity Class 3</item>
+        </string-array>
+    <color name="accentColor">#FF4081</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="black">#FF000000</color>
+    <color name="buttonColor">#009688</color>
+    <color name="errorTextColor">#D32F2F</color>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="primaryDarkColor">#303F9F</color>
+    <color name="resultTextColor">#FF5722</color>
+    <color name="textPrimaryColor">#212121</color>
+    <color name="textSecondaryColor">#757575</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Assigment1_1211089_Android</string>
+    <style name="Base.Theme.Assigment1_1211089_Android" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Assigment1_1211089_Android" parent="Base.Theme.Assigment1_1211089_Android"/>
+</resources>
